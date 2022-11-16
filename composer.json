@@ -1,0 +1,17 @@
+{
+    "name": "noxx/neon-util",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neon\\Util\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noxx",
+            "email": "dev@noxx.digital"
+        }
+    ],
+    "require": {}
+}
