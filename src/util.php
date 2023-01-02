@@ -7,9 +7,11 @@ namespace Neon\Util;
  */
 function dump( $var ): void
 {
+    ob_end_clean();
     echo "<pre>";
     var_dump( $var );
     echo "</pre>";
+    ob_start("ob_callback");
 }
 
 /**
@@ -68,3 +70,6 @@ function is_valid_filename( string $path ): bool
     # check what happens if string empty
     return preg_match('#^[/\w\-. ]+$#', $path );
 }
+
+
+

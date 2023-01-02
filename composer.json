@@ -7,7 +7,7 @@
         "psr-4": {
             "Neon\\Util\\": "src/"
         },
-        "files": ["src/util.php"]
+        "files": ["util.php"]
     },
     "authors": [
         {
